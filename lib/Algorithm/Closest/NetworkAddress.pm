@@ -5,7 +5,7 @@ use strict;
 use warnings;
 use Carp;
 
-our $VERSION = '0.1';
+our $VERSION = '0.2';
 
 use Class::Struct;
 struct 'Algorithm::Closest::NetworkAddress' => {
@@ -80,11 +80,11 @@ sub compare {
 
 =head1 AUTHOR
 
-Ton Voon C<ton.voon@altinity.com>
+Ton Voon C<ton.voon@opsera.com>
 
 =head1 COPYRIGHT
 
-Copyright 2006 Altinity Limited
+Copyright (C) 2006-2008 Opsera Limited. All rights reserved
 
 =head1 LICENSE
 
